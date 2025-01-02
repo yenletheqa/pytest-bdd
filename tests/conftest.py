@@ -24,14 +24,14 @@ def context():
 
 
 @pytest.fixture
-def driver(context):
+def driver():
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-dev-shm-usage")
 
-    context.driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
-    yield context.driver
-    context.driver.quit()
+    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=chrome_options)
+    yield driver
+    driver.quit()
 
 
 def pytest_configure(config):
