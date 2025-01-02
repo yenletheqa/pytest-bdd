@@ -1,6 +1,6 @@
-# Project Name
+# pytest-bdd
 
-Welcome to **Project Name**! This project is designed to give an example of **pytest-bdd** and how it works with **requests** and **WebDriver** for automated testing. It demonstrates how to integrate behavior-driven development (BDD) tests using **Gherkin syntax** along with **Selenium WebDriver** for browser automation and **requests** for API testing.
+Welcome to **pytest-bdd**! This project is designed to give an example of **pytest-bdd** and how it works with **requests** and **WebDriver** for automated testing. It demonstrates how to integrate behavior-driven development (BDD) tests using **Gherkin syntax** along with **Selenium WebDriver** for browser automation and **requests** for API testing.
 
 ## Table of Contents
 
