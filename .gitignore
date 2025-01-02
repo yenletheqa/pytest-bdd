@@ -1,0 +1,9 @@
+# exclude __pycache__
+*.log
+*.pyc
+__pycache__/
+node_modules/
+*.env
+
+# exclude .idea
+.idea/
