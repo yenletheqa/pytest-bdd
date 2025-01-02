@@ -5,13 +5,12 @@ from pathlib import Path
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service as ChromeService, Service
-from selenium.webdriver.chrome.webdriver import WebDriver
+from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-
 
 # Add the root project directory to the Python path
 sys.path.append(str(Path(__file__).resolve().parent.parent))
+
 
 class Context:
     pass
